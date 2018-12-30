@@ -1,0 +1,6 @@
+Component: define la interface de los objetos a los que se les pueden adicionar responsabilidades dinámicamente.
+ComponenteConcreteo: define el objeto al que se le puede adicionar una responsabilidad.
+Decorator: mantiene una referencia al objeto Component y define una interface de acuerdo con la interface de Component.
+DecoratorConcreto: adiciona la responsabilidad al Component.
+
+Decorator propaga los mensajes a su objeto Component. Opcionalmente puede realizar operaciones antes y después de enviar el mensaje.
